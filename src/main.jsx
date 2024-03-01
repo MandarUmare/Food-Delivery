@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 import store from "./store/store.jsx";
 import { Provider } from "react-redux";
 
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
