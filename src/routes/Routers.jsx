@@ -11,10 +11,7 @@ import Login from "../pages/Login";
 import Register from "../pages/Register";
 
 const Routers = () => {
-  const Navigate=useNavigate();
-  useEffect(()=>{
-    Navigate("/home");
-  },[window.location]);
+
   
   return (
     <Routes>
